@@ -46,3 +46,25 @@ body{
 #main-header button:hover{
     background: #000;
 }
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 400px;
+    min-width: 300px;
+    min-height: 200px;
+    background: #373737;
+    border-radius: 20px;
+    padding: 20px;
+}
+.modal .modal-content h1{
+    margin: 0;
+}
